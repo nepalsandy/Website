@@ -5,15 +5,15 @@
 body{
     margin: 0;
     padding:0;
-    background: #b3bebf;
+    background: #b6e5ed;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #12423f;
-  position: sticky;
+  overflow: auto;
+  background-color: #5A046F;
+  float: right;
   top: 0;
 }
 
@@ -34,15 +34,34 @@ li a:hover {
   transition: 0.5s;
   text-transform: uppercase;
 }
-.logo img{
-  position: absolute;
-  margin-top: 15px;
-  margin-left: 10px;
+
+.logo{
+  height: 100%;
+    width: 100%;
+    display: contents;
 }
+.logo img{
+  height: 100%;
+  width: 10%;
+  padding: 0;
+  float: left;
+}
+.header{
+    height: 47px;
+    color: white;
+    background-color: #5A046F;
+  }
+  .Company-Name{
+    display: inline;
+  }
 </style>
 </head>
 <body>
+  <header class="header">
+  <div class="logo"><a href ="#"><img src ="logo.png"></a>
+  </div>
 
+  <h1 class="Company-Name"> The Flying Pegasus</h1>
 <ul>
   <li><a href="#contact">Contact</a></li>
   <li><a href="#news">News</a></li>
@@ -50,10 +69,11 @@ li a:hover {
   <li><a href="#aboutus">About Us</a></li>
   <li><a href="#home">Home</a></li>
 </ul>
-<ul>
 
-<div class="logo"><a href ="#"><img src ="logo.png"></a>
-</div>
+</header>
+
+
+
 
 </body>
 </html>
