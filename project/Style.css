@@ -1,6 +1,7 @@
 
 body {
   margin: 0;
+  background-color: #fff9f9;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -16,10 +17,10 @@ body {
   margin: auto;
   float: left;
 }
-.Company-Name{
-    display: inline;
 
-
+.compress{
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .header {
@@ -42,14 +43,125 @@ body {
   padding: 40px 20px;
   text-transform: uppercase;
 }
+.about{
+  text-align: center;
 
-.content {
-  background-color: #ddd;
-  padding: 10px;
-  height: 200px;
 }
+.new
+{
+  text-align: center;
+
+}
+.contacts
+{
+  text-align: center;
+}
+
 
 .footer {
   background-color: #f1f1f1;
   padding: 10px;
+}
+
+.slider {
+     width: 1349px;
+     height: 550px;
+     background-color: yellow;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 0px;
+     text-align: center;
+     overflow: hidden;
+   }
+   .image-container {
+     width: 6745px;
+     background-color: pink;
+     height: 550px;
+     clear: both;
+     position: relative;
+     -webkit-transition: left 2s;
+     -moz-transition: left 2s;
+     -o-transition: left 2s;
+     transition: left 2s;
+   }
+
+   .slide {
+     float: left;
+     margin: 0px;
+     padding: 0px;
+     position: relative;
+   }
+   #slide-1:target ~ .image-container {
+     left: 0px;
+   }
+   #slide-2:target ~ .image-container {
+     left: -1349px;
+   }
+   #slide-3:target ~ .image-container {
+     left: -2698px;
+   }
+   #slide-4:target ~ .image-container {
+     left: -4047px;
+   }
+   #slide-5:target ~ .image-container {
+     left: -5396px;
+   }
+
+   .buttons {
+     position: relative;
+     top: -20px;
+   }
+   .buttons a {
+     display: inline-block;
+     height: 15px;
+     width: 15px;
+     border-radius: 50px;
+     background-color: lightgreen;
+   }
+
+.footer {
+    background-color: #61608e;
+    height: 200px;
+    width: 100%;
+    color: #f2f2f2;
+    bottom: 0;
+}
+
+.footer-content {
+    margin-left: 30px;
+}
+
+.footer .copy-right {
+
+    color: #f2f2f2;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding-top: 10px;
+    text-align: center;
+    height: 50px;
+}
+
+.footer-section {
+    width: 33%;
+    float: left;
+    text-align: left;
+    color: #fff;
+}
+
+.footer h2 {
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.footer-section ul {
+    margin-top: 15px;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-section ul a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #DBE7F0;
 }
