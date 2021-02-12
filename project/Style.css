@@ -6,12 +6,13 @@ body {
   overflow-x: hidden;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+/*
 .logo{
   height: 100%;
   width: 100%;
   display: contents;
-}
+} */
+
 .logo img{
   display:inline-block;
   width: 100px;
@@ -28,6 +29,16 @@ body {
 .header {
   height: 100px;
   background-color: #61608e;
+}
+.header span{
+  float: left;
+  font-size: 30px;
+  display: block;
+  color: #e62e00;
+  text-align: center;
+  padding: 30px 20px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .header a {
@@ -65,61 +76,6 @@ body {
   padding: 10px;
 }
 
-.slider {
-     width: 1349px;
-     height: 550px;
-     background-color: yellow;
-     margin-left: auto;
-     margin-right: auto;
-     margin-top: 0px;
-     text-align: center;
-     overflow: hidden;
-   }
-   .image-container {
-     width: 6745px;
-     background-color: pink;
-     height: 550px;
-     clear: both;
-     position: relative;
-     -webkit-transition: left 2s;
-     -moz-transition: left 2s;
-     -o-transition: left 2s;
-     transition: left 2s;
-   }
-
-   .slide {
-     float: left;
-     margin: 0px;
-     padding: 0px;
-     position: relative;
-   }
-   #slide-1:target ~ .image-container {
-     left: 0px;
-   }
-   #slide-2:target ~ .image-container {
-     left: -1349px;
-   }
-   #slide-3:target ~ .image-container {
-     left: -2698px;
-   }
-   #slide-4:target ~ .image-container {
-     left: -4047px;
-   }
-   #slide-5:target ~ .image-container {
-     left: -5396px;
-   }
-
-   .buttons {
-     position: relative;
-     top: -20px;
-   }
-   .buttons a {
-     display: inline-block;
-     height: 15px;
-     width: 15px;
-     border-radius: 50px;
-     background-color: lightgreen;
-   }
 
 .footer {
     background-color: #61608e;
@@ -167,3 +123,117 @@ body {
     font-size: 20px;
     color: #DBE7F0;
 }
+
+.sidenav {
+  margin-top: 100px;
+  height: 1900px;
+  width: 170px;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #e6e6ff;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  margin-top: 5px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #3399ff;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+.aboutussidenav
+{
+  margin-top: 100px;
+  height: 603px;
+  width: 160px;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #e6e6ff;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-top: 20px;
+}
+
+.aboutussidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  margin-top: 5px;
+  color: #818181;
+  display: block;
+}
+
+.slider {
+     width: 1200px;
+     height: 550px;
+     background-color: yellow;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 0px;
+     text-align: center;
+     overflow: hidden;
+   }
+   .image-container {
+     width: 6000px;
+     background-color: pink;
+     height: 550px;
+     clear: both;
+     position: relative;
+     -webkit-transition: left 2s;
+     -moz-transition: left 2s;
+     -o-transition: left 2s;
+     transition: left 2s;
+   }
+
+   .slide {
+     float: left;
+     margin: 0px;
+     padding: 0px;
+     position: relative;
+   }
+   #slide-1:target ~ .image-container {
+     left: 0px;
+   }
+   #slide-2:target ~ .image-container {
+     left: -1200px;
+   }
+   #slide-3:target ~ .image-container {
+     left: -2400px;
+   }
+   #slide-4:target ~ .image-container {
+     left: -3600px;
+   }
+   #slide-5:target ~ .image-container {
+     left: -4800px;
+   }
+
+   .buttons {
+     position: relative;
+     top: -20px;
+   }
+   .buttons a {
+     display: inline-block;
+     height: 15px;
+     width: 15px;
+     border-radius: 50px;
+     margin-bottom: 10px;
+     background-color: lightgreen;
+   }
