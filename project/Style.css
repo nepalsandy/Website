@@ -6,12 +6,6 @@ body {
   overflow-x: hidden;
   font-family: Arial, Helvetica, sans-serif;
 }
-/*
-.logo{
-  height: 100%;
-  width: 100%;
-  display: contents;
-} */
 
 .logo img{
   display:inline-block;
@@ -29,6 +23,7 @@ body {
 .header {
   height: 100px;
   background-color: #4d5e38;
+
 }
 .header span{
   float: left;
@@ -90,8 +85,14 @@ body {
     bottom: 0;
     left: 0;
     padding-top: 10px;
-    text-align: center;
     height: 50px;
+}
+
+.logo-footer{
+  display:inline-block;
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
 }
 
 .footer-section {
@@ -116,11 +117,11 @@ body {
     text-decoration: none;
     font-size: 20px;
     color: #DBE7F0;
-}
+  }
 
 .sidenav {
   margin-top: 100px;
-  height: 1903px;
+  height: 1710px;
   width: 170px;
   z-index: 1;
   position: absolute;
@@ -146,15 +147,15 @@ body {
 }
 
 .main {
-  margin-left: 160px; /* Same as the width of the sidenav */
-  font-size: 28px; /* Increased text to enable scrolling */
+  margin-left: 160px;
+  font-size: 28px;
   padding: 0px 10px;
 }
 
 .aboutussidenav
 {
   margin-top: 100px;
-  height: 603px;
+  height: 1180px;
   width: 160px;
   z-index: 1;
   position: absolute;
