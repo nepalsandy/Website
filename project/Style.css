@@ -18,6 +18,7 @@ body {
 .compress{
   padding-left: 100px;
   padding-right: 100px;
+  font-size: 25px;
 }
 
 .header {
@@ -125,7 +126,7 @@ body {
 
 .sidenav {
   margin-top: 100px;
-  height: 2306px;
+  height: 2015px;
   width: 170px;
   z-index: 1;
   position: absolute;
@@ -159,7 +160,7 @@ body {
 .aboutussidenav
 {
   margin-top: 100px;
-  height: 1180px;
+  height: 1067px;
   width: 160px;
   z-index: 1;
   position: absolute;
@@ -212,7 +213,7 @@ body {
 .newssidenav
 {
   margin-top: 100px;
-  height: 2481px;
+  height: 2170px;
   width: 160px;
   z-index: 1;
   position: absolute;
