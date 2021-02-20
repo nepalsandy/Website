@@ -55,6 +55,10 @@ body {
   text-align: center;
 
 }
+.homepage{
+  text-align: center;
+}
+
 .new
 {
   text-align: center;
@@ -121,7 +125,7 @@ body {
 
 .sidenav {
   margin-top: 100px;
-  height: 1710px;
+  height: 2306px;
   width: 170px;
   z-index: 1;
   position: absolute;
