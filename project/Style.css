@@ -209,6 +209,32 @@ body {
   color: #3399ff;
 }
 
+.newssidenav
+{
+  margin-top: 100px;
+  height: 2481px;
+  width: 160px;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #e6e6ff;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-top: 20px;
+}
+
+.newssidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  margin-top: 5px;
+  color: #818181;
+  display: block;
+}
+.newssidenav a:hover {
+  color: #3399ff;
+}
 .slider {
      width: 1200px;
      height: 550px;
